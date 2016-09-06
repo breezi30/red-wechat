@@ -1,2 +1,3 @@
 #My ignore configuration
 /data/*
+/phpmyadmin/*
