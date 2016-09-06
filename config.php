@@ -9,7 +9,7 @@
 		'dbconfig' => array(
 			'dbhost' => 'localhost', 
 			'dbuser'=>'root', 
-			'dbpsw' => 'qwe123' , 
+			'dbpsw' => 'freehf' , 
 			'dbname' => 'newsreport', 
 			'dbcharset' => 'utf8')
 	);
