@@ -3,7 +3,7 @@
 		'viewconfig' => array(
 			'left_delimiter' => '{', 
 		    'right_delimiter' => '}', 
-			'template_dir' => 'tpl',  
+			'template_dir' => 'tpl2',  
 			'compile_dir' => 'data/template_c'
 			),
 		'dbconfig' => array(
