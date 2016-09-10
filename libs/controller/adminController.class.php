@@ -17,9 +17,9 @@ class adminController
 
 	public function index(){
 	
-		$newsobj = M('news');
-		$newsnum = $newsobj->count();
-		View::assign(array('newsnum'=>$newsnum));
+		$articleobj = M('article');
+		$articlenum = $articleobj->count();
+		View::assign(array('articlenum'=>$articlenum));
 		View::display('admin/index.html');
 	}
 
