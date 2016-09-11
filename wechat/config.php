@@ -29,13 +29,13 @@ define("WECHAT_APPSECRET", '7a5a059ab11f3749542e87db335c42a5');
 /*
  * MYSQL数据库配置
  */
-define("MYSQL_HOST",'rm-bp1jr12yxmncljj17.mysql.rds.aliyuncs.com');
-define("MYSQL_USERNAME",'r9h7500578');
-define("MYSQL_PASS",'freehf@816');
-define("MYSQL_DBNAME",'r9h7500578');
-define("PDO_DSN",'mysql:r9h7500578;host=rm-bp1jr12yxmncljj17.mysql.rds.aliyuncs.com;dbname=r9h7500578');
-define("PDO_USER",'r9h7500578');
-define("PDO_PASS",'freehf@816');
+define("MYSQL_HOST",'localhost');
+define("MYSQL_USERNAME",'root');
+define("MYSQL_PASS",'freehf');
+define("MYSQL_DBNAME",'newsreport');
+define("PDO_DSN",'mysql:root;host=localhost;dbname=newsreport');
+define("PDO_USER",'root');
+define("PDO_PASS",'freehf');
 
 
 
