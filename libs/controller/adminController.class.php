@@ -48,7 +48,7 @@ class adminController
 			// $this->showmessage('登录成功','admin.php?controller=admin&method=index');
 			header('location:admin.php?controller=admin&method=index');
 		}else{
-			$this->showmessage('登录失败','admin.php?controller=admin&method=login');		
+			$this->showmessage('Fial to sign in','admin.php?controller=admin&method=login');		
 		}
 	}
 
