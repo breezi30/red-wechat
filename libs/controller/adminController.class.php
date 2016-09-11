@@ -11,7 +11,7 @@ class adminController
 		$this->auth = $authobj->getauth();
 		// echo var_dump($this->auth);
 		if(empty($this->auth)&&(PC::$method!='login')){
-			$this->showmessage('请登录后再操作','admin.php?controller=admin&method=login');
+			$this->showmessage('please sign in frist','admin.php?controller=admin&method=login');
 		}
 	}
 
